@@ -1,6 +1,6 @@
 # Music-Genre-classification-Using-CNN
 
-<a href= '#'>**Check Deployment**</a>
+<a href= '#'>**Check Deployment**</a>(Coming Soon)
 
 # Description
 Being an audio engineer myself i used my domain knowledge to analyse audio signal features and preprocess audio data. We use **GTZAN** Dataset which is a very popular dataset for Audio Classification and trained a CNN model I also tried ANN but it was not giving good accuracy so i went ahead with CNN for this project. This project is deployed on Hugging Face Spaces.
