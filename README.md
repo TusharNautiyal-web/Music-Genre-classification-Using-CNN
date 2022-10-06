@@ -50,7 +50,8 @@ https://user-images.githubusercontent.com/74553737/194239602-12ca490f-3675-47fd-
 
 
 # How it works
- **Understanding Some Common Terms**
+
+***Understanding Some Common Terms***
  
    1.Sample Rate: For our this project we used default sample rate of 22050Khz in movies usally the music is exported in 44.1 kHz or 48 kHz Audio sample rate but our data was in 22050Khz. The sampling rate refers to the number of samples of audio recorded every second. It is measured in samples per second or Hertz (abbreviated as Hz or kHz, with one kHz being 1000 Hz). An audio sample is just a number representing the measured acoustic wave value at a specific point in time.
    
@@ -64,11 +65,13 @@ https://user-images.githubusercontent.com/74553737/194239602-12ca490f-3675-47fd-
    
    6. Cepsteral:  
 
- **Understanding MFCC**
- Mel-frequency cepstral coefficients (MFCCs) are coefficients that collectively make up an Mel frequency cepstrum (See not Spectrum its Cepstrum). They are derived from a type of cepstral representation of the audio clip (a nonlinear "spectrum-of-a-spectrum"). The difference between the cepstrum and the mel-frequency cepstrum is that in the MFC, the frequency bands are equally spaced on the mel scale, which approximates the human auditory system's response more closely than the linearly-spaced frequency bands used in the normal spectrum. This frequency warping can allow for better representation of sound, for example, in audio compression that might potentially reduce the transmission bandwidth and the storage requirements of audio signals.
+ ***Understanding MFCC***
+ 
+Mel-frequency cepstral coefficients (MFCCs) are coefficients that collectively make up an Mel frequency cepstrum (See not Spectrum its Cepstrum). They are derived from a type of cepstral representation of the audio clip (a nonlinear "spectrum-of-a-spectrum"). The difference between the cepstrum and the mel-frequency cepstrum is that in the MFC, the frequency bands are equally spaced on the mel scale, which approximates the human auditory system's response more closely than the linearly-spaced frequency bands used in the normal spectrum. This frequency warping can allow for better representation of sound, for example, in audio compression that might potentially reduce the transmission bandwidth and the storage requirements of audio signals.
 
 
 # Important Points to keep in mind for checking
+
 The Uploaded sample of audio file should be of less then **30sec** and **.WAV** format for best results try to provide sections that have the most **elemental** or **instrumental ensemble** and should be of 30sec. If you want to test the model select ***Untrained Samples***. The model right now support only 10 genre which are blues, jazz, rock, metal, country, reagge, hiphop, pop, disco.
 
 Thank you for checking out my repository do like this if you loved it. In future we will be creating more features like chroma features STFT etc to make our model more accurate and better with enough data if you want to try it out by yourself you can clone the repo and you can start working on it.
