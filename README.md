@@ -1,5 +1,8 @@
 # Music-Genre-classification-Using-CNN
 
+<a href="https://www.linkedin.com/in/tusharnautiyal/"> <img src = "https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a> 
+<img src = "https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/> <img src = "https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white"/> 
+
 <a href= '#'>**Check Deployment**</a>(Coming Soon)
 
 # Description
