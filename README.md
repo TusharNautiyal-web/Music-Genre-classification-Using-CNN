@@ -53,21 +53,21 @@ https://user-images.githubusercontent.com/74553737/194239602-12ca490f-3675-47fd-
 
 ***Understanding Some Common Terms***
  
-   1.Sample Rate: For our this project we used default sample rate of 22050Khz in movies usally the music is exported in 44.1 kHz or 48 kHz Audio sample rate but our data was in 22050Khz. The sampling rate refers to the number of samples of audio recorded every second. It is measured in samples per second or Hertz (abbreviated as Hz or kHz, with one kHz being 1000 Hz). An audio sample is just a number representing the measured acoustic wave value at a specific point in time.
+   1. **Sample Rate**: For our this project we used default sample rate of 22050Khz in movies usally the music is exported in 44.1 kHz or 48 kHz Audio sample rate but our data was in 22050Khz. The sampling rate refers to the number of samples of audio recorded every second. It is measured in samples per second or Hertz (abbreviated as Hz or kHz, with one kHz being 1000 Hz). An audio sample is just a number representing the measured acoustic wave value at a specific point in time.
    
-   2. Hop Length: This is also knows as buffer size or buffer frames in terms of recording audio signals this buffer size provides higher quality or lower quality where 2048 samples buffer is the highest and lowest can be 16samples the more samples the more the latency. In terms of audio signal or hop legnth the same thing becomes The hop size (number of samples between each successive FFT window) of Fast Fourier transforms performed is equal to the size of the Fast Fourier transform divided by the overlap factor (e.g. if the frame size is 512 and the overlap is set to 2 then the hop size is 256 samples
+   2. **Hop Length**: This is also knows as buffer size or buffer frames in terms of recording audio signals this buffer size provides higher quality or lower quality where 2048 samples buffer is the highest and lowest can be 16samples the more samples the more the latency. In terms of audio signal or hop legnth the same thing becomes The hop size (number of samples between each successive FFT window) of Fast Fourier transforms performed is equal to the size of the Fast Fourier transform divided by the overlap factor (e.g. if the frame size is 512 and the overlap is set to 2 then the hop size is 256 samples
    
-   3.FFT: The "Fast Fourier Transform" (FFT) is an important measurement method in the science of audio and acoustics measurement. It converts a signal into individual spectral components and thereby provides frequency information about the signal.
+   3. **FFT**: The "Fast Fourier Transform" (FFT) is an important measurement method in the science of audio and acoustics measurement. It converts a signal into individual spectral components and thereby provides frequency information about the signal.
    
-   4. MFCC vs FFT: FFT takes a signal and determines the 'frequency content' of the signal. MFFCs are perceptually motivated features to match how humans perceive pitch. To go one further, the perceptual motivation is to overcome the fact that the FFT has a linear resolution
+   4. **MFCC vs FFT**: FFT takes a signal and determines the 'frequency content' of the signal. MFFCs are perceptually motivated features to match how humans perceive pitch. To go one further, the perceptual motivation is to overcome the fact that the FFT has a linear resolution
    
-   5.Cepstrum Vs Spectrum: When a signal is analyzed in time domain they are called spectrum or you can say that signal is in spectral domain. but when the signal is analyzed in frequency domain and amplitude of such signal is taken to analyzed the signal then they are said to be in cepstral domain
+   5. **Cepstrum Vs Spectrum**: When a signal is analyzed in time domain they are called spectrum or you can say that signal is in spectral domain. but when the signal is analyzed in frequency domain and amplitude of such signal is taken to analyzed the signal then they are said to be in cepstral domain
    
-   6. Cepsteral:  
-
  ***Understanding MFCC***
  
-Mel-frequency cepstral coefficients (MFCCs) are coefficients that collectively make up an Mel frequency cepstrum (See not Spectrum its Cepstrum). They are derived from a type of cepstral representation of the audio clip (a nonlinear "spectrum-of-a-spectrum"). The difference between the cepstrum and the mel-frequency cepstrum is that in the MFC, the frequency bands are equally spaced on the mel scale, which approximates the human auditory system's response more closely than the linearly-spaced frequency bands used in the normal spectrum. This frequency warping can allow for better representation of sound, for example, in audio compression that might potentially reduce the transmission bandwidth and the storage requirements of audio signals.
+**Mel-frequency cepstral coefficients (MFCCs)** are coefficients that collectively make up an **Mel frequency cepstrum** (See not Spectrum its Cepstrum). They are derived from a type of cepstral representation of the audio clip (a nonlinear "spectrum-of-a-spectrum"). The difference between the cepstrum and the mel-frequency cepstrum is that in the MFC, the frequency bands are equally spaced on the mel scale, which approximates the human auditory system's response more closely than the linearly-spaced frequency bands used in the normal spectrum. This frequency warping can allow for better representation of sound, for example, in audio compression that might potentially reduce the transmission bandwidth and the storage requirements of audio signals.
+
+![MFCC-mel-frequency-cepstral-coefficients-characteristic-vectors-extraction-flow](https://user-images.githubusercontent.com/74553737/194272495-2682296d-51aa-4eaa-93bb-e2bffd93369f.png)
 
 
 # Important Points to keep in mind for checking
